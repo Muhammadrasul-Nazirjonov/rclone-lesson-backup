@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>rclone lesson backup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>rclone lesson backup</h1>
+    <p>This is a private, single-user setup of <a href="https://rclone.org">rclone</a>, the open-source file
+      transfer tool. Its owner uses it to back up their own working files from their own computer to their own
+      Google Drive.</p>
+    <p>It is not a public service: nobody else signs in to it or uses it.</p>
+    <h2>What it does with Google Drive</h2>
+    <ul>
+      <li>It uses only the <code>drive.file</code> permission, so it can see and change only the files and
+        folders it creates itself. It cannot see any other file in the Drive.</li>
+      <li>It copies files from the owner's computer to the owner's Drive and checks that each copy is complete.</li>
+      <li>It does not share, publish or send files anywhere else.</li>
+    </ul>
+    <p><a href="privacy.html">Privacy policy</a></p>
+  </main>
+</body>
+</html>
